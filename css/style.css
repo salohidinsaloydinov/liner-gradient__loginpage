@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 0 auto;
+    margin-top: 50px;
+    width: 360px;
+    height: 400px;
+    background: linear-gradient(to bottom,blue, green);
+    text-align: center;
+    border: 5px solid violet;
+    border-radius: 15px;
+}
+h1{
+   padding-top: 40px;
+   color: rgb(36, 3, 3);
+   text-shadow: 5px 0px 5px red;
+}
+span{
+    font-size: 40px;
+    color: coral;
+    font-weight: 900;
+    font-family: sans-serif;
+}
+input{
+    width: 200px;
+    height: 40px;
+    margin: 10px;
+    border-radius: 8px;
+    padding-left: 10px;
+    font-family: cursive;
+    background-color: aqua;
+}
+button{
+    width: 150px;
+    height: 30px;
+    border-radius:8px 0px 8px 0px ;
+    background: radial-gradient( circle, red,green,blue);
+    margin-top: 50px;
+}
